@@ -1,0 +1,222 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #fefeff;
+}
+
+.layout_padding {
+  padding: 75px 0;
+}
+
+/*header section*/
+
+.header_section {
+  padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+span{
+  text-shadow: -1px 4px #d1efdd;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+
+.top_container {
+  position: relative;
+}
+
+.navbar-brand{
+  color: rgb(16, 99, 21);
+  font-size: 90px;
+  text-align: center;
+}
+
+.top_container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-size: 100% 100%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+/* hero section */
+.hero-container {
+  height:100%;
+  display: flex;
+  padding-top: 9px;
+}
+
+.hero_detail-box {
+  width: 40%;
+}
+
+.hero_img-container {
+  width: 60%;
+}
+.hero_img-container img {
+  width: 100%;
+}
+
+.hero_detail-box {
+  color: #fefeff;
+}
+
+.hero_detail-box h1 {
+  font-size: 50px;
+  color: #fefeff;
+  font-weight: 600;
+  width: 70%;
+}
+
+
+.hero_detail-box p {
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+
+/* end hero section */
+
+/* common style for some sections */
+.common_style>section {
+  padding: 50px 0;
+}
+
+.common_style .row {
+  align-items: center;
+}
+
+.common_style h3 {
+  font-weight: 600;
+  color: #151516;
+}
+
+.common_style p {
+  font-weight: 600;
+  color: #4e4f50;
+  margin: 30px 0 50px 0;
+}
+
+.common_style img {
+  width: 100%;
+}
+
+li{
+  text-align: left;
+}
+p{
+  text-align: left;
+}
+/* end common style */
+
+/* about section */
+.about_section {
+  text-align: center;
+}
+
+.about_section a {
+  background-color: #6ebca8;
+  color: #fefeff;
+}
+
+/* end about section */
+
+/* admission section */
+
+
+.admission_section a {
+  color: #fefeff;
+}
+
+/* end admission section */
+
+/* determine section */
+
+
+.determine_section a {
+  color: #000000;
+}
+
+.voir-plus{
+  background-color: rgb(10, 130, 14);
+  width: 25%;
+  border: none;
+  height: 50px;
+}
+
+/* end determine section */
+
+/* client section */
+.client_section h2
+ {
+  font-weight: 600;
+}
+
+.client_section h2 {
+  text-align: center;
+}
+
+@keyframes beforeanimate {
+  0% {
+    top: 43%;
+    transform: rotate(142deg);
+    left: 31%;
+
+  }
+
+  100% {
+    top: -15px;
+    transform: rotate(139deg);
+    left: -15px;
+  }
+}
+
+@keyframes afteranimate {
+  0% {
+    bottom: 46%;
+    transform: rotate(142deg);
+    right: 35%;
+  }
+
+  100% {
+    bottom: -15px;
+    transform: rotate(142deg);
+    right: -15px;
+  }
+}
+/* end client section */
+/* footer section*/
+
+.footer_section {
+  background-color: #000000;
+  padding: 20px 10px;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.footer_section p {
+  color: #fdfdfe;
+  margin: 0;
+  text-align: center;
+}
+
+.footer_section a {
+  color: #fdfdfe;
+}
+
+
+
+/* end footer section*/
